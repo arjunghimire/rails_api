@@ -12,7 +12,7 @@ gem 'rails', '~> 5.1.2'
 gem 'mysql2',group: :development
 gem 'pg', '1.1.4', group: :production
 gem 'rails_12factor'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 gem 'rack-cors', require: 'rack/cors'
 
 
