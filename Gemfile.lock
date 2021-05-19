@@ -67,7 +67,8 @@ GEM
       mini_portile2 (~> 2.2.0)
     pg (1.1.4)
     pg (1.1.4-x86-mingw32)
-    puma (3.9.1)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.3)
     rack-cors (1.0.2)
     rack-test (0.6.3)
@@ -127,7 +128,7 @@ DEPENDENCIES
   faker
   mysql2
   pg (= 1.1.4)
-  puma (~> 3.7)
+  puma (~> 4.3)
   rack-cors
   rails (~> 5.1.2)
   rails_12factor
